@@ -16,3 +16,7 @@ I created a dashboard using Tableau to illustrate Spanish La Liga's underperform
 
 
 [Project 2: Karst Hydrology -](https://github.com/alex-milneski/honors-defense-water-logger-project)
+
+I was tasked to help with the data aspects of this undergraduate honor's project.   
+
+![alt text](https://github.com/alex-milneski/honors-defense-water-logger-project/blob/b22faf2ee050960b1312950b41ee382f0d35496a/Jaymie's%20Honor%20Defense%20Data/CS1.png))
