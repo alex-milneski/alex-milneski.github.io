@@ -29,5 +29,7 @@ This graph shows the relationship between precipitation and water conductivity. 
 
 ### Challenges
 This was my fist project working with matplotlib and primary data collection.
-- I needed to visualise data combining both line and histogram in one plot and have 3 variables with different scales - I decided to create a twin axis and staggering it using Python's matplotlib.
+- I needed to visualise data combining both line and histogram charts in one plot and have 3 variables with different scales - I decided to create a twin axis and staggering it using Python's matplotlib.
 - Time stamp information needed to be standardized across all datasets. This was solved with the use of the dt.floor() method from the pandas library which was able to round the time information to the nearest hour.
+
+Project 3: Ontario Waterbirds - Spatial Analysis with R
