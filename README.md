@@ -7,11 +7,15 @@ xG = 0.79, signifying that a penalty kick has a 79% chance of being a goal. I wa
 
 League and season data was scraped using [FBRef's API](https://fbrapi.com/documentation) for 5 seasons from the 5 top leagues. Using Python, I automated the retrieval of the 'penalty kicks attempts' and 'penalty kicks made' from the API's JSON for all 5 leagues and seasons. I then merged and filtered the data to look at PK conversion rates by league, PK conversion by team within their respective leagues as well as within the context of all 5 leagues.
 
-I found that overall the xG = 0.79 was well warranted. The conversion rate from all 2910 attempts from 25 seasons of data did in fact show a 79.45% conversion rate, but some teams and leagues noticeably overperformed/underperformed the metric. 
-
 I created a dashboard using Tableau to illustrate Spanish La Liga's underperformance at PKs.
 
 ![alt text](https://github.com/alex-milneski/penalty-kick-analysis-top-5-leagues/blob/main/la_liga.png)
+
+### Skills used
+Python, Google collabs, Tableau, data exploration, API, dashboards, data visualization
+
+### Results/Insights
+2910 PK attempts from 25 seasons of data did in fact show a 79.45% conversion rate. Opta's xpG of 0.79 accurately predicts the conversion rate of penalty kicks in general. However, some teams and leagues noticeably overperformed/underperformed the metric. For example, 83% of penalty kicks have been scored in the last 5 years of French Ligue 1 while less than 76% have been scored in Spanish La Liga during the same period of time. The Spanish league has some of the worst performers at PKs in the top 5 leagues while also having a team with the highest success rate, Espanyol, with 15 goals from 15 attempts. 
 
 <br>
 
@@ -23,4 +27,7 @@ I was tasked with cleaning, organizing and graphing data from a [HOBO water leve
 
 This graph shows the relationship between precipitation and water conductivity. In karst landscapes, limestone dissolved in water causes higher water conductivity, and provides a high baseline ideal for hydrological study. The Case Study 1 graph illustrates how a rainfall event caused a dilution signature, shown by a temporary dip in specific conductance during a period of high precipitation.
 
-One of the main challenges in visualizing the data was the need to combine both line and histogram in one plot and have 3 variables on the y-axes.
+### Challenges
+This was my fist project working with matplotlib and primary data collection.
+- I needed to visualise data combining both line and histogram in one plot and have 3 variables with different scales - I decided to create a twin axis and staggering it using Python's matplotlib.
+- Time stamp information needed to be standardized across all datasets. This was solved with the use of the dt.floor() method from the pandas library which was able to round the time information to the nearest hour.
