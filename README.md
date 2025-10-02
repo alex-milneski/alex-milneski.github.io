@@ -13,10 +13,14 @@ I created a dashboard using Tableau to illustrate Spanish La Liga's underperform
 
 ![alt text](https://github.com/alex-milneski/penalty-kick-analysis-top-5-leagues/blob/main/la_liga.png)
 
+<br>
 
+[Project 2: Karst Hydrology - Primary Data Collection and Graphing](https://github.com/alex-milneski/honors-defense-water-logger-project)
 
-[Project 2: Karst Hydrology -](https://github.com/alex-milneski/honors-defense-water-logger-project)
-
-I was tasked to help with the data aspects of this undergraduate honor's project.   
+I was tasked with cleaning, organizing and graphing data from a [HOBO water level logger](https://www.onsetcomp.com/products/data-loggers/u20l-0x) for an ongoing 5 year karst hydrology project. In total, 6 case study graphs were created with matplotlib; each illustrating different hydrological processes or temporal scales.
 
 ![alt text](https://github.com/alex-milneski/honors-defense-water-logger-project/blob/b22faf2ee050960b1312950b41ee382f0d35496a/Jaymie's%20Honor%20Defense%20Data/CS1.png))
+
+This graph shows the relationship between precipitation and water conductivity. In karst landscapes, limestone dissolved in water causes higher water conductivity, and provides a high baseline ideal for hydrological study. The Case study 1 graph illustrates how a rainfall event caused a dilution signature, shown by a temporary dip in specific conductivity during a period of high precip.
+
+One of the main challenges in visualizing the data was the need to combine both line and histogram in one plot and have 3 variables on the y-axes.
