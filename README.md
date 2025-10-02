@@ -27,6 +27,9 @@ I was tasked with cleaning, organizing and graphing data from a [HOBO water leve
 
 This graph shows the relationship between precipitation and water conductivity. In karst landscapes, limestone dissolved in water causes higher water conductivity, and provides a high baseline ideal for hydrological study. The Case Study 1 graph illustrates how a rainfall event caused a dilution signature, shown by a temporary dip in specific conductance during a period of high precipitation.
 
+### Skills Used
+Python, Google Sheets, matplotlib, data cleaning, graphing, combining primary and secondary data.
+
 ### Challenges
 This was my fist project working with matplotlib and primary data collection.
 - I needed to visualise data combining both line and histogram charts in one plot and have 3 variables with different scales - I decided to create a twin axis and staggering it using Python's matplotlib.
