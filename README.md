@@ -31,8 +31,10 @@ This graph shows the relationship between precipitation and water conductivity. 
 Python, Google Sheets, matplotlib, data cleaning, graphing, combining primary and secondary data.
 
 ### Challenges
-This was my fist project working with matplotlib and primary data collection.
+This was my first project working with matplotlib and primary data collection.
 - I needed to visualise data combining both line and histogram charts in one plot and have 3 variables with different scales - I decided to create a twin axis and staggering it using Python's matplotlib.
 - Time stamp information needed to be standardized across all datasets. This was solved with the use of the dt.floor() method from the pandas library which was able to round the time information to the nearest hour allowing for consistant comparable time information across all datasets.
 
-Project 3: Ontario Waterbirds - Spatial Analysis with R
+Project 3: Ontario Shorebirds - Time Series Spatial Analysis with R
+
+The latest [Birds Canada report](https://www.birdscanada.org/introducing-the-state-of-canadas-birds) estimates shorebirds in Canada have declined by 42% since 1980. The goal of this project was to explore shorebird data from the Program for Regional and International Shorebird Monitoring (PRISM) and the Ontario Shorebird Survey (OSS) to look at which species in particular may have seen a decline, or have been faring better, as well as pinpoint particular survey sites that may be of interest.
