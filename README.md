@@ -2,7 +2,7 @@
 
 <br>
 
-[Project 1: Ontario Shorebirds - Time Series Spatial Analysis with R](https://github.com/alex-milneski/ontario-shorebird-R)
+## [Project 1: Ontario Shorebirds - Time Series Spatial Analysis with R](https://github.com/alex-milneski/ontario-shorebird-R)
 
 The goal of this project was to explore shorebird data from the [Ontario Shorebird Survey (OSS)](https://www.canada.ca/en/environment-climate-change/services/bird-surveys/shorebird/ontario.html) to look at population trends and spatial relationships. In the end, the research resulted in a better understanding of the data gaps and limitations of the OSS and shorebird surveys as they pertain to bird science and conservation. This data source was chosen due to its reliablity in the context of bird science. The OSS is conducted by skilled birders, trained biologists and the survey has been running since the 1970 - good data quality and great for time series analysis. Also, the latest [Birds Canada report](https://www.birdscanada.org/introducing-the-state-of-canadas-birds) report estimates shorebirds in Canada have declined by 42% since 1980 - research on shorebird species is important for their conservation.
 
@@ -11,22 +11,33 @@ The goal of this project was to explore shorebird data from the [Ontario Shorebi
 Both Greater and Lesser Yellowlegs see a downwards trend in observation counts from the OSS. Highly variable counts can be explained by inconsistant survey frequency, temporal gaps in surveys at certain locations and natural variance in migratory behaviour. In the case of Lesser Yellowlegs, they are a species at risk known to return to the same sites during breeding and migration; which make them a good species to look at. However, their breeding range is fully outside of the scope of the survey and much of their habitat/stop-over sites are under-represented due to Ontario's geography (Figure 1 & 2).
 
 <img src="https://github.com/alex-milneski/ontario-shorebird-R/blob/main/Data-Visualization/survey-site-frqcy.png" alt="survey site frequency" width="600" height="600"/> <img src="https://github.com/alex-milneski/ontario-shorebird-R/blob/main/Data-Visualization/survey-locations.gif" alt="time series" width="400" height="400"/>  
-Fig 1 & 2: Survey frequency by survey location | Survey Site Locations where Lesser Yellowlegs have been observed (1980-2024)
+Fig 1 & 2. Survey frequency by survey location | Survey Site Locations where Lesser Yellowlegs have been observed (1980-2024)
+
+<br>
 
 Inconsistant survey frequency is seen within all sites for the ~50 years of data. For example, Nonquon Sewage Lagoons, which was the most frequently visited site, stopped being surveyed by the OSS in 2015 and certain years were surveyed less often (2011). I posit that the COVID-19 pandemic caused some data gaps in the early 2020s but also the volunteer-based nature of the project and site accessibility caused gaps in the data throughout.
 
-<div align="center"><img src="https://github.com/alex-milneski/ontario-shorebird-R/blob/main/Data-Visualization/nonquon.png" alt="nonquon" width="500" height"=500/></div>
+<div align="center"><figure><img src="https://github.com/alex-milneski/ontario-shorebird-R/blob/main/Data-Visualization/nonquon.png" alt="nonquon" width="500" height"=500/><figcaption>Fig 3. Decline in Lesser Yellowlegs counts at Nonquon Sewage Lagoon are exasterbated by gaps in the data.</figcaption></figure></div>
 
-Even at sites Shirley's Bay (42.007) and Andrew Haydon Park (42.003) less than 10km from eachother, bird counts can vary greatly - as seen with Lesser Yellowlegs in 1995 (Fig 4, Fig 5). 
+<br>
+
+In addition to the data gaps, migratory ranges create highly variable counts. For example, bird counts vary greatly at Shirley's Bay (42.007) and Andrew Haydon Park (42.003), sites less than 10km from eachother - as seen with Lesser Yellowlegs in 1995 (Figure 4 & 5). 
 
 <img src="https://github.com/alex-milneski/ontario-shorebird-R/blob/main/Data-Visualization/lesser-plot.png" alt="lesser-plot" width="500" height="500"/> <img src="https://github.com/alex-milneski/ontario-shorebird-R/blob/main/Data-Visualization/study-sites.png" alt="study-sites" width="500" height="500"/>
+Fig 4 & 5. Site comparison for Lesser Yellowlegs yearly counts.
 
-Then, there are the limitations of borders (federal and provincial) and using a single survey source for looking at trends. As seen with partnerships like the Program for Regional and International Shorebird Monitoring, a larger scale view is necessary to confidently assess shorebird populations. 
+<br>
+
+Then, there are the limitations of using a single survey source for looking at trends. As seen with partnerships like the Program for Regional and International Shorebird Monitoring, a larger scale view is necessary to confidently assess shorebird populations. The use of more complex calculations or sampling particular time frames is also needed to better assess bird populations and trends.  
+
+<br>
 
 ### Skills used
 R, Data cleaning, Data visualization, Time Series
 
-[Project 2: Soccer Stats - Data Exploration using an API](https://github.com/alex-milneski/penalty-kick-analysis-top-5-leagues/tree/main)
+<br>
+
+## [Project 2: Soccer Stats - Data Exploration using an API](https://github.com/alex-milneski/penalty-kick-analysis-top-5-leagues/tree/main)
 
 The goal of this project was to explore the expected goal (xG) metric as it pertains to penalty kicks (PK). This probabilistic outcome metric used by sports analysts and professional sports teams alike is determined by Opta Sports to be 
 xG = 0.79, signifying that a penalty kick has a 79% chance of being a goal. I wanted to see how real-world data performs against the goal probability, and if some teams or leagues overperform or underperform their PKs.
@@ -45,7 +56,7 @@ Python, Google collabs, Tableau, data exploration, API, dashboards, data visuali
 
 <br>
 
-[Project 3: Karst Hydrology - Primary Data Collection and Graphing](https://github.com/alex-milneski/honors-defense-water-logger-project)
+## [Project 3: Karst Hydrology - Primary Data Collection and Graphing](https://github.com/alex-milneski/honors-defense-water-logger-project)
 
 I was tasked with cleaning, organizing and graphing data from a [HOBO water level logger](https://www.onsetcomp.com/products/data-loggers/u20l-0x) for an ongoing 5 year karst hydrology project. In total, 6 case study graphs were created with matplotlib; each illustrating different hydrological processes or temporal scales.
 
