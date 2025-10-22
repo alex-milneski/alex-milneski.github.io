@@ -2,17 +2,30 @@
 
 [Project 1: Ontario Shorebirds - Time Series Spatial Analysis with R](https://github.com/alex-milneski/ontario-shorebird-R)
 
-The goal of this project was to explore shorebird data from the [Ontario Shorebird Survey (OSS)](https://www.canada.ca/en/environment-climate-change/services/bird-surveys/shorebird/ontario.html) to look at population trends and spatial relationships. In the end, the research resulted in a better understanding of surveys in the context of bird conservation, the data gaps and limitations of the OSS while also illustrating how challenging bird population estimations can be.
+The goal of this project was to explore shorebird data from the [Ontario Shorebird Survey (OSS)](https://www.canada.ca/en/environment-climate-change/services/bird-surveys/shorebird/ontario.html) to look at population trends and spatial relationships. In the end, the research resulted in a better understanding of the data gaps and limitations of the OSS and shorebird surveys as they pertain to bird science and conservation.
 
-The latest [Birds Canada report](https://www.birdscanada.org/introducing-the-state-of-canadas-birds) estimates shorebirds in Canada have declined by 42% since 1980. The OSS was chosen not only because of the importance of shorebird research for future conservation efforts, but the OSS is conducted by skilled birders, trained biologists and the survey has been running since the 1970s - both the data quality and protocol are well https://naturecounts.ca/nc/default/datasets.jsp?code=PRISM-OSS) 
+The latest [Birds Canada report](https://www.birdscanada.org/introducing-the-state-of-canadas-birds) estimates shorebirds in Canada have declined by 42% since 1980. The OSS was chosen not only because of the importance of shorebird research for future conservation efforts, but the OSS is conducted by skilled birders, trained biologists and the survey has been running since the 1970 - good data quality and great for time series analysis. Dahttps://naturecounts.ca/nc/default/datasets.jsp?code=PRISM-OSS) 
+
+### Conclusions and Insights
+
+
+
+<img src="https://github.com/alex-milneski/ontario-shorebird-R/blob/main/Data-Visualization/survey-site-frqcy.png" alt="survey site frequency" width="600" height="600"/> <img src="https://github.com/alex-milneski/ontario-shorebird-R/blob/main/Data-Visualization/survey-locations.gif" alt="time series" width="400" height="400"/>  
+Fig 1: Survey frequency by survey location (1980-2024). High frequency near major urban centers.
+Fig 1:Survey Site Locations where Lesser Yellowlegs have been observed (1980-2024)
+
+Both Greater and Lesser Yellowlegs see a downwards trend in observation counts from the OSS. Highly variable counts can be explained by inconsistant survey frequency, temporal gaps in surveys at certain locations and natural variance in migratory behaviour. In the case of Lesser Yellowlegs, they are a species at risk known to return to the same sites during breeding and migration; which make them a good species to look at. However, their breeding range is fully outside of the scope of the survey (Figure 1). Much of their habitat/stop-over sites are away from urban centers which is under-represented in the survey.
+
+Other limitations:
+
+Nonquon Sewage Lagoons, which was the most frequently visited site, stopped being surveyed by the OSS in 2015 with some data gaps in the final years. The inconsistant survey frequency is seen within all sites for the ~50 years of data. I posit that the COVID-19 pandemic caused some data gaps in the early 2020s but also the volunteer-based nature of the project and site accessibility causing data gaps.
+Natural variability of migration
+Even at sites Shirley's Bay (42.007) and Andrew Haydon Park (42.003) less than 10km from eachother, bird counts can vary greatly - as seen with Lesser Yellowlegs in 1995 (Fig 2, Fig 3). 
+
+Then, there are the limitations of using a single survey source for looking at trends. As seen with partnerships like the Program for Regional and International Shorebird Monitoring, a large scale view is necessary to confidently assess shorebird populations.
 
 ### Skills used
-R, Data cleaning, Data visualization
-
-### Results and I
-
-![alt text](https://github.com/alex-milneski/ontario-shorebird-R/blob/main/Data-Visualization/survey-site-frqcy.png)
-
+R, Data cleaning, Data visualization, Time Series
 
 [Project 2: Soccer Stats - Data Exploration using an API](https://github.com/alex-milneski/penalty-kick-analysis-top-5-leagues/tree/main)
 
