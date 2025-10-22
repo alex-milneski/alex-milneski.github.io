@@ -6,6 +6,9 @@
 
 The goal of this project was to explore shorebird data from the [Ontario Shorebird Survey (OSS)](https://www.canada.ca/en/environment-climate-change/services/bird-surveys/shorebird/ontario.html) to look at population trends and spatial relationships. In the end, the research resulted in a better understanding of the data gaps and limitations of the OSS and shorebird surveys as they pertain to bird science and conservation. This data source was chosen due to its reliablity in the context of bird science. The OSS is conducted by skilled birders, trained biologists and the survey has been running since the 1970 - good data quality and great for time series analysis. Also, the latest [Birds Canada report](https://www.birdscanada.org/introducing-the-state-of-canadas-birds) report estimates shorebirds in Canada have declined by 42% since 1980 - research on shorebird species is important for their conservation.
 
+### Skills used
+R, Data cleaning, Data visualization, Time Series
+
 ### Conclusions and Insights
 
 Both Greater and Lesser Yellowlegs see a downwards trend in observation counts from the OSS. Highly variable counts can be explained by inconsistant survey frequency, temporal gaps in surveys at certain locations and natural variance in migratory behaviour. In the case of Lesser Yellowlegs, they are a species at risk known to return to the same sites during breeding and migration; which make them a good species to look at. However, their breeding range is fully outside of the scope of the survey and much of their habitat/stop-over sites are under-represented due to Ontario's geography (Figure 1 & 2).
@@ -29,11 +32,6 @@ Fig 4 & 5. Site comparison for Lesser Yellowlegs yearly counts.
 <br>
 
 Then, there are the limitations of using a single survey source for looking at trends. As seen with partnerships like the Program for Regional and International Shorebird Monitoring, a larger scale view is necessary to confidently assess shorebird populations. The use of more complex calculations or sampling particular time frames is also needed to better assess bird populations and trends.  
-
-<br>
-
-### Skills used
-R, Data cleaning, Data visualization, Time Series
 
 <br>
 
