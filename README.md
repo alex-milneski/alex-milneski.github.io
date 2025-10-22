@@ -1,6 +1,20 @@
 # Data Analyst Portfolio
 
-[Project 1: Soccer Stats - Data Exploration using an API](https://github.com/alex-milneski/penalty-kick-analysis-top-5-leagues/tree/main)
+[Project 1: Ontario Shorebirds - Time Series Spatial Analysis with R](https://github.com/alex-milneski/ontario-shorebird-R)
+
+The goal of this project was to explore shorebird data from the [Ontario Shorebird Survey (OSS)](https://www.canada.ca/en/environment-climate-change/services/bird-surveys/shorebird/ontario.html) to look at population trends and spatial relationships. In the end, the research resulted in a better understanding of surveys in the context of bird conservation, the data gaps and limitations of the OSS while also illustrating how challenging bird population estimations can be.
+
+The latest [Birds Canada report](https://www.birdscanada.org/introducing-the-state-of-canadas-birds) estimates shorebirds in Canada have declined by 42% since 1980. The OSS was chosen not only because of the importance of shorebird research for future conservation efforts, but the OSS is conducted by skilled birders, trained biologists and the survey has been running since the 1970s - both the data quality and protocol are well https://naturecounts.ca/nc/default/datasets.jsp?code=PRISM-OSS) 
+
+### Skills used
+R, Data cleaning, Data visualization
+
+### Results and I
+
+![alt text](https://github.com/alex-milneski/ontario-shorebird-R/blob/main/Data-Visualization/survey-site-frqcy.png)
+
+
+[Project 2: Soccer Stats - Data Exploration using an API](https://github.com/alex-milneski/penalty-kick-analysis-top-5-leagues/tree/main)
 
 The goal of this project was to explore the expected goal (xG) metric as it pertains to penalty kicks (PK). This probabilistic outcome metric used by sports analysts and professional sports teams alike is determined by Opta Sports to be 
 xG = 0.79, signifying that a penalty kick has a 79% chance of being a goal. I wanted to see how real-world data performs against the goal probability, and if some teams or leagues overperform or underperform their PKs.
@@ -19,7 +33,7 @@ Python, Google collabs, Tableau, data exploration, API, dashboards, data visuali
 
 <br>
 
-[Project 2: Karst Hydrology - Primary Data Collection and Graphing](https://github.com/alex-milneski/honors-defense-water-logger-project)
+[Project 3: Karst Hydrology - Primary Data Collection and Graphing](https://github.com/alex-milneski/honors-defense-water-logger-project)
 
 I was tasked with cleaning, organizing and graphing data from a [HOBO water level logger](https://www.onsetcomp.com/products/data-loggers/u20l-0x) for an ongoing 5 year karst hydrology project. In total, 6 case study graphs were created with matplotlib; each illustrating different hydrological processes or temporal scales.
 
@@ -34,7 +48,3 @@ Python, Google Sheets, matplotlib, data cleaning, graphing, combining primary an
 This was my first project working with matplotlib and primary data collection.
 - I needed to visualise data combining both line and histogram charts in one plot and have 3 variables with different scales - I decided to create a twin axis and staggering it using Python's matplotlib.
 - Time stamp information needed to be standardized across all datasets. This was solved with the use of the dt.floor() method from the pandas library which was able to round the time information to the nearest hour allowing for consistant comparable time information across all datasets.
-
-Project 3: Ontario Shorebirds - Time Series Spatial Analysis with R
-
-The latest [Birds Canada report](https://www.birdscanada.org/introducing-the-state-of-canadas-birds) estimates shorebirds in Canada have declined by 42% since 1980. The goal of this project was to explore shorebird data from the Program for Regional and International Shorebird Monitoring (PRISM) and the Ontario Shorebird Survey (OSS) to look at which species in particular may have seen a decline, or have been faring better, as well as pinpoint particular survey sites that may be of interest.
