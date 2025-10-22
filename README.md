@@ -16,13 +16,12 @@ Fig 1:Survey Site Locations where Lesser Yellowlegs have been observed (1980-202
 
 Both Greater and Lesser Yellowlegs see a downwards trend in observation counts from the OSS. Highly variable counts can be explained by inconsistant survey frequency, temporal gaps in surveys at certain locations and natural variance in migratory behaviour. In the case of Lesser Yellowlegs, they are a species at risk known to return to the same sites during breeding and migration; which make them a good species to look at. However, their breeding range is fully outside of the scope of the survey (Figure 1). Much of their habitat/stop-over sites are away from urban centers which is under-represented in the survey.
 
-Other limitations:
+Inconsistant survey frequency is seen within all sites for the ~50 years of data. I posit that the COVID-19 pandemic caused some data gaps in the early 2020s but also the volunteer-based nature of the project and site accessibility caused gaps in the data.
+For example, Nonquon Sewage Lagoons, which was the most frequently visited site, stopped being surveyed by the OSS in 2015 and certain years were surveyed less frequently. 
 
-Nonquon Sewage Lagoons, which was the most frequently visited site, stopped being surveyed by the OSS in 2015 with some data gaps in the final years. The inconsistant survey frequency is seen within all sites for the ~50 years of data. I posit that the COVID-19 pandemic caused some data gaps in the early 2020s but also the volunteer-based nature of the project and site accessibility causing data gaps.
-Natural variability of migration
 Even at sites Shirley's Bay (42.007) and Andrew Haydon Park (42.003) less than 10km from eachother, bird counts can vary greatly - as seen with Lesser Yellowlegs in 1995 (Fig 2, Fig 3). 
 
-Then, there are the limitations of using a single survey source for looking at trends. As seen with partnerships like the Program for Regional and International Shorebird Monitoring, a large scale view is necessary to confidently assess shorebird populations.
+Then, there are the limitations of borders (federal and provincial) and using a single survey source for looking at trends. As seen with partnerships like the Program for Regional and International Shorebird Monitoring, a larger scale view is necessary to confidently assess shorebird populations. 
 
 ### Skills used
 R, Data cleaning, Data visualization, Time Series
