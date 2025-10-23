@@ -20,7 +20,7 @@ Fig 1 & 2. Survey frequency by survey location | Survey Site Locations where Les
 
 Inconsistant survey frequency is seen within all sites for the ~50 years of data. For example, Nonquon Sewage Lagoons, which was the most frequently visited site, stopped being surveyed by the OSS in 2015 and certain years were surveyed less often (2011). I posit that the COVID-19 pandemic caused some data gaps in the early 2020s but also the volunteer-based nature of the project and site accessibility caused gaps in the data throughout.
 
-<div align="center"><figure><img src="https://github.com/alex-milneski/ontario-shorebird-R/blob/main/Data-Visualization/nonquon.png" alt="nonquon" width="500" height"=500/><figcaption>Fig 3. Decline in Lesser Yellowlegs counts at Nonquon Sewage Lagoon are exasterbated by gaps in the data.</figcaption></figure></div>
+<div align="center"><figure><img src="https://github.com/alex-milneski/ontario-shorebird-R/blob/main/Data-Visualization/nonquon.png" alt="nonquon" width="500" height"=500/><figcaption>Fig 3. Decline in Lesser Yellowlegs counts at Nonquon Sewage Lagoon exasterbated by gaps in the data.</figcaption></figure></div>
 
 <br>
 
