@@ -31,7 +31,7 @@ Fig 4 & 5. Site comparison for Lesser Yellowlegs yearly counts.
 
 <br>
 
-This exploratory analysis provided some insights into the limitations of using a single survey source for looking at trends as well as using observation counts as a metric. The use of more complex models that take into account effort (time spent on obervation), weather data as well as calculating abundance in terms of population density overtime would yield more reliable results.
+This exploratory analysis provided some insights into the limitations of using a single survey source for looking at trends, as well as using observation counts as a metric. The use of more complex models that take into account effort (time spent on obervation), weather data as well as calculating population abundance in terms of species density overtime would yield more reliable results.
 
 <br>
 
