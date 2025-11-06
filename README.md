@@ -31,7 +31,7 @@ Fig 4 & 5. Site comparison for Lesser Yellowlegs yearly counts.
 
 <br>
 
-Then, there are the limitations of using a single survey source for looking at trends. As seen with partnerships like the Program for Regional and International Shorebird Monitoring, a larger scale view is necessary to confidently assess shorebird populations. The use of more complex calculations or sampling particular time frames is also needed to better assess bird populations and trends.  
+This exploratory analysis provided some insights into the limitations of using a single survey source for looking at trends as well as using observation counts as a metric. The use of more complex models that take into account effort (time spent on obervation), weather data as well as calculating abundance in terms of population density overtime would yield more reliable results.
 
 <br>
 
